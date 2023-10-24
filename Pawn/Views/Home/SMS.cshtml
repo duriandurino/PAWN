@@ -1,0 +1,44 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+@{
+    ViewData["Title"] = "SMS";
+}
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<div class="container rounded bg-white mt-2 mb-5">
+    <div class="btn-group btn-group-toggle" data-toggle="buttons">
+        <label class="btn btn-light active">
+            <input type="radio" name="options" id="option1" autocomplete="off" checked> SMS Modem Configuration
+        </label>
+        <label class="btn btn-light">
+            <input type="radio" name="options" id="option2" autocomplete="off"> SMS Default Messaging
+        </label>
+    </div>
+    <div class="row">
+        <div class="col-md-4">
+            <div class="d-flex flex-column align-items-left p-3 py-5">
+                <div class="form-group">
+                    <label for="exampleFormControlSelect1">Select Port</label>
+                    <select class="form-control" id="exampleFormControlSelect1">
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                        <option>5</option>
+                    </select>
+                    <br />
+                    <label>Status</label>
+                    <div class="row mt-2">
+                        <div class="col-md-4"><label style="color: red;">DISCONNECTED</label></div>
+                    </div>
+                    <div class="mt-5">
+                        <button class="btn btn-primary profile-button" type="button">Confirm</button>
+                        <button class="btn btn-secondary profile-button ml-2" type="button">Cancel</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

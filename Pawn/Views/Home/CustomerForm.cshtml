@@ -1,0 +1,56 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+@{
+    ViewData["Title"] = "Customer Info";
+}
+
+<div class="col-md-8">
+    <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Customer"><p class="h4"><strong><i class="fa fa-arrow-circle-o-left"></i> &nbsp;Customer List</strong></p></a>
+</div>
+<div class="container rounded bg-white mt-2 mb-5">
+    <div class="row">
+        <div class="col-md-3 border-right">
+            <div class="d-flex flex-column align-items-center text-center p-3 py-5">
+                <img style="width: 150px; border: solid 1px; border-color: #e0e4e4;" src="https://t4.ftcdn.net/jpg/04/81/13/43/360_F_481134373_0W4kg2yKeBRHNEklk4F9UXtGHdub3tYk.jpg">
+                <br />
+                <button class="btn btn-primary profile-button" type="button">Load Web Camera</button>
+            </div>
+        </div>
+        <div class="col-md-8 border-right">
+            <div class="p-3 py-5">
+                <div class="d-flex justify-content-between align-items-center mb-3">
+                    <h4 class="text-right">Customer Information</h4>
+                </div>
+                <div class="row mt-2">
+                    <div class="col-md-4"><label class="labels">Customer Number</label><input type="text" class="form-control" placeholder="000001" value=""></div>
+                </div>
+                <div class="row mt-3">
+                    <div class="col-md-4"><label class="labels">Last Name</label><input type="text" class="form-control" placeholder="Last Name" value=""></div>
+                    <div class="col-md-4"><label class="labels">First Name</label><input type="text" class="form-control" value="" placeholder="First Name"></div>
+                    <div class="col-md-4"><label class="labels">Middle Name</label><input type="text" class="form-control" value="" placeholder="Middle Name"></div>
+                </div>
+                <div class="row mt-2">
+                    <div class="col-md-12"><label class="labels">Gender</label><input type="text" class="form-control" placeholder="Enter Gender" value=""></div>
+                    <div class="col-md-12"><label class="labels">Address</label><input type="text" class="form-control" placeholder="Enter Address" value=""></div>
+                    <div class="col-md-12"><label class="labels">Birthdate</label><input type="text" class="form-control" placeholder="Enter Birth Date" value=""></div>
+                    <div class="col-md-12"><label class="labels">Contact Number</label><input type="text" class="form-control" placeholder="Enter Contact Number" value=""></div>
+                    <div class="col-md-12"><label class="labels">Valid ID Registration Date</label><input type="text" class="form-control" placeholder="Enter Valid Id Registration Date" value=""></div>
+                    <div class="col-md-12"><label class="labels">Valid ID Expiry Date</label><input type="text" class="form-control" placeholder="Enter Valid Id Expiry Date" value=""></div>
+                    <div class="col-md-12"><label class="labels">Valid ID</label><input type="text" class="form-control" placeholder="ID" value=""></div>
+                </div>
+
+                <div class="mt-5">
+                    <button class="btn btn-primary profile-button" type="button">Save</button>
+                    <button class="btn btn-primary profile-button ml-2" type="button">Browse Scan File</button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <br /> <br />
+</div>
+
+
