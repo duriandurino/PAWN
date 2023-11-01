@@ -3,3 +3,77 @@
 *@
 @{
 }
+@{
+    ViewData["Title"] = "PawnTicket";
+}
+
+<div class="container-fluid">
+    <div class="row justify-content-start">
+        <div class="col-md-5">
+           <p class="h4" style="padding-bottom: 10px;"><strong>Pawn Ticket</strong></p>
+        </div>
+        <div class="col-sm-3">
+            <input type="text" class="form-control" placeholder="Search" id="searchItem" />
+        </div>
+        <div class="col-sm-2">
+            <input type="button" class="form-control btn btn-primary" value="Search" id="btnSearch" />
+        </div>
+        <div class="col-sm-2">
+            <input type="button" class="form-control btn btn-primary" value="Create New" id="btnCreateNew" />
+        </div>
+    </div>
+</div>
+<div class="row overflow-auto">
+    <div class="col-md-12 add-border" style="padding-top: 15px;">
+        <div id="divResult" class="col-lg-12">
+            <table class="table table-bordered thead-light w-auto">
+                <thead>
+                    <tr class="align-middle">
+                        <th>Pawn Ticket No.</th>
+                        <th>Client ID</th>
+                        <th>Name</th>
+                        <th>Address</th>
+                        <th>Item Description</th>
+                        <th>Contact No.</th>
+                        <th>Item Description</th>
+                        <th>Serial No.</th>
+                        <th>Grams</th>
+                        <th>Principal</th>
+                        <th>Interest</th>
+                        <th>Interest</th>
+                        <th>Interest Amount</th>
+                        <th>Balance</th>
+                        <th>Date Loan Granted</th>
+                        <th>Maturity Date</th>
+                        <th>Expiry Date of Redemption Period</th>
+                    </tr>
+                </thead>
+                <tbody id="bodyContents">
+                    @* @foreach (var item in Model)
+                    { *@
+                    <tr>
+                        <td style="word-wrap: break-word;min-width: 100px;max-width: 120px;">00001</td>
+                        <td style="word-wrap: break-word;min-width: 100px;max-width: 120px;">0069</td>
+                        <td style="word-wrap: break-word;min-width: 160px;max-width: 300px;">Adrian Gwapo Alejandrino</td>
+                        <td style="word-wrap: break-word;min-width: 100px;max-width: 120px;">Gwapo, Handsome City</td>
+                        <td style="word-wrap: break-word;min-width: 160px;max-width: 500px;">Handsome Potion</td>
+                        <td style="word-wrap: break-word;min-width: 160px;max-width: 250px;">09229292929</td>
+                        <td style="word-wrap: break-word;min-width: 160px;max-width: 500px;">Gwapotion</td>
+                        <td style="word-wrap: break-word;min-width: 100px;max-width: 120px;">42069</td>
+                        <td style="word-wrap: break-word;min-width: 100px;max-width: 120px;">150000</td>
+                        <td style="word-wrap: break-word;min-width: 160px;max-width: 200px;">Principal Gwapo</td>
+                        <td style="word-wrap: break-word;min-width: 90px;max-width: 100px;">I am interested on her</td>
+                        <td style="word-wrap: break-word;min-width: 90px;max-width: 100px;">6%</td>
+                        <td style="word-wrap: break-word;min-width: 120px;max-width: 170px;">P 420,069</td>
+                        <td style="word-wrap: break-word;min-width: 120px;max-width: 170px;">P 696,969</td>
+                        <td style="word-wrap: break-word;min-width: 120px;max-width: 170px;">11/15/2003</td>
+                        <td style="word-wrap: break-word;min-width: 120px;max-width: 170px;">11/15/2023</td>
+                        <td style="word-wrap: break-word;min-width: 120px;max-width: 200px;">09/28/2003</td>
+                    </tr>
+                    @*  } *@
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+

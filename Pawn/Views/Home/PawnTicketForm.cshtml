@@ -1,0 +1,119 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+@{
+    ViewData["Title"] = "PawnTicketForm";
+}
+<div class="container w-100 justify-content-center my-5">
+    <div class="row p-2 border border-dark" style="background-color: #ffff33;">
+        New Loan Item
+    </div>
+
+    <div class="row border-bottom border-right border-left border-dark p-2">
+        <div class="row mb-3">
+            <div class="col-md-7">
+                <div class="input-group mb-4">
+                    <input type="text" class="form-control" placeholder="Search customer name" value="">
+                </div>
+                <div class="input-group mb-1">
+                    <span class="input-group-text">Pawn Ticket</span>
+                    <input type="text" class="form-control" placeholder="XXXXXX" value="">
+                </div>
+                <div class="input-group mb-1">
+                    <span class="input-group-text">Mr./Mrs.</span>
+                    <input type="text" class="form-control" placeholder="ex. John Doe" value="">
+                </div>
+                <div class="input-group mb-3">
+                    <span class="input-group-text">Address</span>
+                    <input type="text" class="form-control" placeholder="ex. Sabang, Danao City" value="">
+                </div>
+                <div class="input-group mb-1">
+                    <label class="input-group-text" for="inputGroupSelect01">Item Type</label>
+                    <select class="form-select" id="inputGroupSelect01">
+                        <option selected>Choose...</option>
+                        <option value="1">Appliance</option>
+                        <option value="2">Jewelry</option>
+                        <option value="3">Vehicle</option>
+                    </select>
+                </div>
+                <div class="input-group mb-1">
+                    <span class="input-group-text">Item Description</span>
+                    <textarea class="form-control" aria-label="Item description"></textarea>
+                </div>
+                <div class="input-group mb-1">
+                    <span class="input-group-text">Remarks</span>
+                    <input type="text" class="form-control" placeholder="" value="">
+                </div>
+            </div>
+
+            <div class="col-md-5">
+                <div class="input-group mb-1">
+                    <label class="input-group-text" for="inputGroupSelect01">Date Loan Granted</label>
+                    <select class="form-select" id="inputGroupSelect01">
+                        <option selected>MM</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option> <!--hehe murag need ni magic chiar-->
+                        <option value="3">3</option>
+                    </select>
+                    <select class="form-select" id="inputGroupSelect01">
+                        <option selected>DD</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                    </select>
+                    <select class="form-select" id="inputGroupSelect01">
+                        <option selected>YY</option>
+                        <option value="1">2021</option>
+                        <option value="2">2022</option>
+                        <option value="3">2023</option>
+                    </select>
+                </div>
+                <div class="input-group mb-1">
+                    <label class="input-group-text" for="inputGroupSelect01">Maturity Date</label>
+                    <select class="form-select" id="inputGroupSelect01">
+                        <option selected>MM</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option> 
+                        <option value="3">3</option>
+                    </select>
+                    <select class="form-select" id="inputGroupSelect01">
+                        <option selected>DD</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                    </select>
+                    <select class="form-select" id="inputGroupSelect01">
+                        <option selected>YY</option>
+                        <option value="1">2021</option>
+                        <option value="2">2022</option>
+                        <option value="3">2023</option>
+                    </select>
+                </div>
+                <div class="input-group mb-1">
+                    <label class="input-group-text" for="inputGroupSelect01">Expiry of Redemption</label>
+                    <select class="form-select" id="inputGroupSelect01">
+                        <option selected>MM</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option> 
+                        <option value="3">3</option>
+                    </select>
+                    <select class="form-select" id="inputGroupSelect01">
+                        <option selected>DD</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                    </select>
+                    <select class="form-select" id="inputGroupSelect01">
+                        <option selected>YY</option>
+                        <option value="1">2021</option>
+                        <option value="2">2022</option>
+                        <option value="3">2023</option>
+                    </select>
+                </div>
+            </div>
+        </div>  
+    </div>
+
+</div>

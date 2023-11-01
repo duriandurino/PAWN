@@ -34,11 +34,23 @@ namespace Pawn.Controllers
         {
             return View();
         }
-        public IActionResult SMS()
+        public IActionResult SMSConfig()
+        {
+            return View();
+        }
+        public IActionResult SMSMessaging()
         {
             return View();
         }
         public IActionResult PawnTicket()
+        {
+            return View();
+        }
+        public IActionResult PawnTicketGenerate()
+        {
+            return View();
+        }
+        public IActionResult PawnTicketForm()
         {
             return View();
         }

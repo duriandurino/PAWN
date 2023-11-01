@@ -9,57 +9,71 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Pawn
 build_property.RootNamespace = Pawn
-build_property.ProjectDir = C:\Users\canqu\source\repos\Pawn\Pawn\
+build_property.ProjectDir = C:\Users\hilar\source\repos\Pawn\Pawn\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 7.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\canqu\source\repos\Pawn\Pawn
+build_property.MSBuildProjectDirectory = C:\Users\hilar\source\repos\Pawn\Pawn
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/canqu/source/repos/Pawn/Pawn/Views/Home/Customer.cshtml]
+[C:/Users/hilar/source/repos/Pawn/Pawn/Views/Home/Customer.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDdXN0b21lci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/canqu/source/repos/Pawn/Pawn/Views/Home/CustomerForm.cshtml]
+[C:/Users/hilar/source/repos/Pawn/Pawn/Views/Home/CustomerForm.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDdXN0b21lckZvcm0uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/canqu/source/repos/Pawn/Pawn/Views/Home/CustomerUpdate.cshtml]
+[C:/Users/hilar/source/repos/Pawn/Pawn/Views/Home/CustomerUpdate.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDdXN0b21lclVwZGF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/canqu/source/repos/Pawn/Pawn/Views/Home/Index.cshtml]
+[C:/Users/hilar/source/repos/Pawn/Pawn/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/canqu/source/repos/Pawn/Pawn/Views/Home/PawnTicket.cshtml]
+[C:/Users/hilar/source/repos/Pawn/Pawn/Views/Home/PawnTicket.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQYXduVGlja2V0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/canqu/source/repos/Pawn/Pawn/Views/Home/Privacy.cshtml]
+[C:/Users/hilar/source/repos/Pawn/Pawn/Views/Home/PawnTicketForm.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQYXduVGlja2V0Rm9ybS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hilar/source/repos/Pawn/Pawn/Views/Home/PawnTicketGenerate.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQYXduVGlja2V0R2VuZXJhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hilar/source/repos/Pawn/Pawn/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/canqu/source/repos/Pawn/Pawn/Views/Home/SMS.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxTTVMuY3NodG1s
+[C:/Users/hilar/source/repos/Pawn/Pawn/Views/Home/SMSConfig.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxTTVNDb25maWcuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/canqu/source/repos/Pawn/Pawn/Views/Shared/Error.cshtml]
+[C:/Users/hilar/source/repos/Pawn/Pawn/Views/Home/SMSMessaging.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxTTVNNZXNzYWdpbmcuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hilar/source/repos/Pawn/Pawn/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/canqu/source/repos/Pawn/Pawn/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/hilar/source/repos/Pawn/Pawn/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/canqu/source/repos/Pawn/Pawn/Views/_ViewImports.cshtml]
+[C:/Users/hilar/source/repos/Pawn/Pawn/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/canqu/source/repos/Pawn/Pawn/Views/_ViewStart.cshtml]
+[C:/Users/hilar/source/repos/Pawn/Pawn/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/canqu/source/repos/Pawn/Pawn/Views/Shared/_Layout.cshtml]
+[C:/Users/hilar/source/repos/Pawn/Pawn/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-mvw6ylkhr7
