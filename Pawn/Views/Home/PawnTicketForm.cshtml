@@ -12,11 +12,16 @@
     </div>
 
     <div class="row border-bottom border-right border-left border-dark p-2">
-        <div class="row mb-3">
-            <div class="col-md-7">
+        <div class="row mb-3 mt-2">
+            <div class="col-md-6">
                 <div class="input-group mb-4">
                     <input type="text" class="form-control" placeholder="Search customer name" value="">
                 </div>
+            </div>            
+        </div>
+        <!---->
+        <div class="row mb-3">
+            <div class="col-md-7">
                 <div class="input-group mb-1">
                     <span class="input-group-text">Pawn Ticket</span>
                     <input type="text" class="form-control" placeholder="XXXXXX" value="">
@@ -40,7 +45,7 @@
                 </div>
                 <div class="input-group mb-1">
                     <span class="input-group-text">Item Description</span>
-                    <textarea class="form-control" aria-label="Item description"></textarea>
+                    <textarea class="form-control" rows="5" aria-label="Item description"></textarea>
                 </div>
                 <div class="input-group mb-1">
                     <span class="input-group-text">Remarks</span>
@@ -49,6 +54,7 @@
             </div>
 
             <div class="col-md-5">
+
                 <div class="input-group mb-1">
                     <label class="input-group-text" for="inputGroupSelect01">Date Loan Granted</label>
                     <select class="form-select" id="inputGroupSelect01">
@@ -91,7 +97,8 @@
                         <option value="3">2023</option>
                     </select>
                 </div>
-                <div class="input-group mb-1">
+
+                <div class="input-group mb-4">
                     <label class="input-group-text" for="inputGroupSelect01">Expiry of Redemption</label>
                     <select class="form-select" id="inputGroupSelect01">
                         <option selected>MM</option>
@@ -112,8 +119,82 @@
                         <option value="3">2023</option>
                     </select>
                 </div>
+
+                <div class="input-group mb-1">
+                    <label class="input-group-text" for="inputGroupSelect01">Interest Rate</label>
+                    <select class="form-select" id="inputGroupSelect01">
+                        <option selected>Choose...</option>
+                        <option value="1">3%</option>
+                        <option value="2">6%</option>
+                        <option value="3">69%</option>
+                    </select>
+                </div>
+
+                <div class="input-group mb-1">
+                    <span class="input-group-text">Principal Amount</span>
+                    <input type="text" class="form-control" placeholder="P XX.XX" value="">
+                </div>
+                <div class="input-group mb-1">
+                    <span class="input-group-text">Interest Amount</span>
+                    <input type="text" class="form-control" placeholder="" value="automated">
+                </div>
+                <div class="input-group mb-1">
+                    <span class="input-group-text">Service Charge</span>
+                    <input type="text" class="form-control" placeholder="" value="automated">
+                </div>
+                <div class="input-group mb-1">
+                    <span class="input-group-text">Total</span>
+                    <input type="text" class="form-control" placeholder="" value="automated">
+                </div>
             </div>
-        </div>  
+        </div>
+        <!---->
+        <div class="row mb-5 overflow-auto">
+            <div id="divResult" class="col-lg-12">
+                <table class="table table-bordered thead-light w-auto">
+                    <thead>
+                        <tr class="align-middle" style="background-color: #ffff33;">
+                            <th></th>
+                            <th>Item</th>
+                            <th>Description</th>
+                            <th>Principal</th>
+                            <th>Interest Rate</th>
+                            <th>Date</th>
+                            <th>Maturity Date</th>
+                            <th>Expiry Date</th>
+                        </tr>
+                    </thead>
+                    <tbody id="bodyContents">
+                        @* @foreach (var item in Model)
+                        { *@
+                        <tr>
+                            <td style="word-wrap: break-word;min-width: 100px;max-width: 110px;">
+                                <input class="btn btn-danger" type="button" value="Remove" />&nbsp;
+                            </td>
+                            <td style="word-wrap: break-word;min-width: 160px;max-width: 200px;">Gadget</td>
+                            <td style="word-wrap: break-word;min-width: 160px;max-width: 400px;">Iphone 11</td>
+                            <td style="word-wrap: break-word;min-width: 160px;max-width: 200px;">P 1,800</td>
+                            <td style="word-wrap: break-word;min-width: 100px;max-width: 110px;">6%</td>
+                            <td style="word-wrap: break-word;min-width: 100px;max-width: 120px;">MM/DD/YYYY</td>
+                            <td style="word-wrap: break-word;min-width: 100px;max-width: 120px;">MM/DD/YYYY</td>
+                            <td style="word-wrap: break-word;min-width: 100px;max-width: 120px;">MM/DD/YYYY</td>
+                        </tr>
+                        @*  } *@
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <!---->
+        <div class="row row-mb-3 justify-content-between">
+            <div class="col-md-7">
+                <input type="text" class="form-control" placeholder="???" value=""> <!--di ko sure kung need magic-->
+                <div class="form-text" id="basic-addon4">Note: This transaction is auto-generated SMS to the customer</div>
+            </div>
+            <div class="col-md-3 pt-3">
+                <input class="btn btn-primary mx-1" type="button" value="Add Item" />
+                <input class="btn btn-danger" type="button" value="Cancel" />
+            </div>
+        </div>
     </div>
 
 </div>

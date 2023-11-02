@@ -1,0 +1,76 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+@{
+    ViewData["Title"] = "Renewal";
+}
+
+<div class="container-fluid">
+    <div class="row justify-content-start">
+        <div class="col-md-7">
+           <p class="h4" style="padding-bottom: 10px;"><strong>Renewal</strong></p>
+        </div>
+        <div class="col-sm-3">
+            <input type="text" class="form-control" placeholder="Search" id="searchItem" />
+        </div>
+        <div class="col-sm-2">
+            <input type="button" class="form-control btn btn-primary" value="Search" id="btnSearch" />
+        </div>
+    </div>
+</div>
+<div class="row overflow-auto">
+    <div class="col-md-12 add-border" style="padding-top: 15px;">
+        <div id="divResult" class="col-lg-12">
+            <table class="table table-bordered thead-light w-auto">
+                <thead>
+                    <tr class="align-middle">
+                        <th>Ticket</th>
+                        <th>Client ID</th>
+                        <th>Full Name</th>
+                        <th>Item Type</th>
+                        <th>Item Description</th>
+                        <th>SN/GRMS</th>
+                        <th>Principal</th>
+                        <th>Total Interest</th>
+                        <th>Interest Amount</th>
+                        <th>Loan Date</th>
+                        <th>Maturity Date</th>
+                        <th>Expiry Date</th>
+                        <th>Balance</th>
+                        <th></th>
+                    </tr>
+                </thead>
+                <tbody id="bodyContents">
+                    @* @foreach (var item in Model)
+                    { *@
+                    <tr>
+                        <td style="word-wrap: break-word;min-width: 100px;max-width: 120px;">42069</td>
+                        <td style="word-wrap: break-word;min-width: 100px;max-width: 120px;">111503</td>
+                        <td style="word-wrap: break-word;min-width: 160px;max-width: 200px;">Adrian Gwapo</td>
+                        <td style="word-wrap: break-word;min-width: 100px;max-width: 100px;">Gold Jewelry</td>
+                        <td style="word-wrap: break-word;min-width: 160px;max-width: 200px;">NPCH</td>
+                        <td style="word-wrap: break-word;min-width: 100px;max-width: 120px;">3.4</td>
+                        <td style="word-wrap: break-word;min-width: 100px;max-width: 140px;">1,800</td>
+                        <td style="word-wrap: break-word;min-width: 100px;max-width: 120px;">10%</td>
+                        <td style="word-wrap: break-word;min-width: 110px;max-width: 170px;">P 180</td>
+                        <td style="word-wrap: break-word;min-width: 100px;max-width: 120px;">09/09/2022</td>
+                        <td style="word-wrap: break-word;min-width: 100px;max-width: 120px;">10/09/2022</td>
+                        <td style="word-wrap: break-word;min-width: 100px;max-width: 120px;">01/09/2003</td>
+                        <td style="word-wrap: break-word;min-width: 110px;max-width: 170px;">P 1,980</td>
+                        
+                        <td style="word-wrap: break-word;min-width: 100px;max-width: 130px;">
+                            <input class="btn btn-primary" type="button" value="Renew Item" />&nbsp;
+                        </td>
+                        <td style="word-wrap: break-word;min-width: 160px;max-width: 200px;">
+                            <input class="btn btn-primary" type="button" value="Notify thru SMS" />
+                        </td>
+                    </tr>
+                    @*  } *@
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+
