@@ -1,0 +1,111 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+@{
+    ViewData["Title"] = "RenewItem";
+}
+
+<div class="col-md-8">
+    <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Renewal"><p class="h4"><strong><i class="fa fa-arrow-circle-o-left"></i> &nbsp;List of Renewable Items</strong></p></a>
+</div>
+<div class="container w-100 justify-content-center my-5">
+    <div class="row p-2 border border-dark" style="background-color: #ffff33;">
+        Renewal Item
+    </div>
+
+    <div class="row border-bottom border-right border-left border-dark p-2">
+        
+        <!---->
+        <div class="row my-3 justify-content-evenly">
+            <div class="col-md-5">
+
+                <div class="input-group mb-1">
+                    <span class="input-group-text">Pawn Ticket</span>
+                    <input type="text" class="form-control" placeholder="00001" value="">
+                </div>
+                <div class="input-group mb-1">
+                    <span class="input-group-text">Mr./Mrs.</span>
+                    <input type="text" class="form-control" placeholder="Mata, Kier S." value="">
+                </div>
+                <div class="input-group mb-1">
+                    <span class="input-group-text">Item Type</span>
+                    <input type="text" class="form-control" placeholder="Gold Jewelry" value="">
+                </div>
+                <div class="input-group mb-1">
+                    <span class="input-group-text">Item Description</span>
+                    <input type="text" class="form-control" placeholder="NPCH" value="">
+                </div>
+                <div class="input-group mb-1">
+                    <span class="input-group-text">Serial No./Grams</span>
+                    <input type="text" class="form-control" placeholder="3.4" value="">
+                </div>
+                <div class="input-group mb-1">
+                    <span class="input-group-text">Remarks</span>
+                    <input type="text" class="form-control" placeholder="N/A" value="">
+                </div>
+                <div class="input-group mb-1">
+                    <span class="input-group-text">Loan Date</span>
+                    <input type="text" class="form-control" placeholder="09/09/2022" value="">
+                </div>
+                <div class="input-group mb-1">
+                    <span class="input-group-text">Maturity Date</span>
+                    <input type="text" class="form-control" placeholder="10/09/2022" value="">
+                </div>
+                <div class="input-group mb-1">
+                    <span class="input-group-text">Expiry Date</span>
+                    <input type="text" class="form-control" placeholder="01/09/2022" value="">
+                </div>
+
+            </div>
+
+            <div class="col-md-5">
+
+                <div class="input-group mb-1">
+                    <span class="input-group-text">Principal</span>
+                    <input type="text" class="form-control" placeholder="P 1,800" value="">
+                </div>
+                <div class="input-group mb-1">
+                    <span class="input-group-text">Balance</span>
+                    <input type="text" class="form-control" placeholder="Mata, Kier S." value="">
+                </div>
+                <div class="input-group mb-1">
+                    <span class="input-group-text">Total Interest</span>
+                    <input type="text" class="form-control" placeholder="10%" value="">
+                </div>
+                <div class="input-group mb-1">
+                    <span class="input-group-text">Interest Amount</span>
+                    <input type="text" class="form-control" placeholder="P 180" value="">
+                </div>
+                <div class="input-group mb-1">
+                    <span class="input-group-text">Data</span>
+                    <input type="text" class="form-control" placeholder="P 300" value="">
+                </div>
+                <div class="input-group mb-1">
+                    <span class="input-group-text">Service Charge</span>
+                    <input type="text" class="form-control" placeholder="P 5" value="">
+                </div>
+                <div class="input-group mb-1">
+                    <span class="input-group-text">Total</span>
+                    <input type="text" class="form-control" placeholder="P 485" value="">
+                </div>
+                <div class="input-group mb-1">
+                    <span class="input-group-text">New Principal</span>
+                    <input type="text" class="form-control" placeholder="P 1,500" value="">
+                </div>
+                
+            </div>
+        </div>
+        <!---->
+        <div class="row my-2 justify-content-center">
+            <div class="col-md-1">
+                <input class="btn btn-primary" type="button" value="Save" />
+            </div>
+            <div class="col-md-1">
+                <input class="btn btn-danger" type="button" value="Cancel" />
+            </div>
+        </div>
+    </div>
+
+</div>

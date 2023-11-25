@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Pawn")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+63fb59e1c7d849d2f6bd9b5a0b103308f6cb7842")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4fbea035288b789bc7bbe6ddb15d1f04a37cfd24")]
 [assembly: System.Reflection.AssemblyProductAttribute("Pawn")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Pawn")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
